@@ -80,6 +80,7 @@ def process_files(temppath, layers, files, exts, dst, delete):
                 shutil.copyfile(src, os.path.join(dst, newname))
             else:
                 shutil.copyfile(src, newname)
+            os.remove(src)
         if ext in [".7z", ".rar", ".zip"]:
             extract(layers, src, exts, dst, True)
 
