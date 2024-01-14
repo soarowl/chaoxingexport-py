@@ -59,7 +59,7 @@ def get_suffix(filename):
     return pathlib.Path(filename).suffix
 
 
-# 处理文件列表，列表中似有文件已经解压
+# 处理文件列表，列表中所有文件已经解压
 def process_files(temppath, layers, files, exts, dst, delete):
     for file in files:
         src = os.path.join(temppath, file)
