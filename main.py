@@ -19,7 +19,6 @@ def extract(layers=[], filename=None, exts=[], dst=None, delete=False):
     layers: list[str] 当前所处的层，即压缩包文件名列表
     filename: str 压缩包名
     exts: list[str] 文件类型列表
-    df: DataFreame [学号 姓名]
     dst: str 目标路径
     delete: 提取完毕后是否删除压缩包
     """
