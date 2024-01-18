@@ -11,6 +11,7 @@ name_counter = {}
 
 
 def main():
+    # 请修改下面参数
     extract([], "2.zip", [".doc", ".docx"], "实习报告")
 
 
